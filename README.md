@@ -12,15 +12,14 @@ bioinfo_exercicies
 ├── dna
 │   ├── dna.fasta
 │   └── dnaX.fasta
+│   └── rna.fasta
 ├── dnaY.fasta
 ├── protein
 │   ├── protein.fasta
 │   ├── proteinX.fasta
 │   └── proteinY.fasta
 └── rna
-    └── rna.fasta
-chrom
-└── chromossome.txt
+└── chrom
 fastq
 ├── 76_S2_L001_R1_001.fastq.gz
 ├── AM_S5_L001_R1_001.fastq.gz
