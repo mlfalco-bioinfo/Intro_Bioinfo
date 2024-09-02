@@ -86,12 +86,17 @@ ls -lah bioinfo_exercicies
 ### 3. Download de Arquivos
 
 #### 3.1. Baixar um Arquivo Usando `wget`
+
 Baixe o arquivo com nossos arquivos e diretórios:
 
 ```
 wget -P $HOME https://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.12.1.zip
 ```
+Agora, é necessário descomprimir o arquivo `Intro_Bionfo.zip` com os diretórios/arquivos:
 
+```
+unzip Intro_Bioinfo.zip .
+```
 
 
 ### 4. Estrutura de Diretórios
