@@ -104,33 +104,33 @@ tree bioinfo_exercicies
 ```
 
 #### 4.2. Criar um Novo Diretório
-Crie um diretório chamado `results`:
+Crie um diretório chamado `genoma`:
 
 ```
-mkdir results
+mkdir genoma
 ```
 
 ### 5. Manipulação de Arquivos
 
 #### 5.1. Copiar Arquivos
-Copie o arquivo `chromossome.txt` para o diretório `results`:
+Copie o arquivo `chromossome.txt` para o diretório `chrom`:
 
 ```
-cp bioinfo_exercicies/chromossome.txt results/
+cp bioinfo_exercicies/chromossome.txt chrom/
 ```
 
 #### 5.2. Mover Arquivos
-Movimente o arquivo `genes.vcf` para o diretório `results`:
+Movimente o arquivo `genes.vcf` para o diretório `genoma`:
 
 ```
-mv genes.vcf results/
+mv genes.vcf genoma/
 ```
 
 #### 5.3. Remover Arquivos
-Remova o arquivo `results/genes.vcf`:
+Remova o arquivo `genoma/genes.vcf`:
 
 ```
-rm results/genes.vcf
+rm genoma/genes.vcf
 ```
 
 ### 6. Visualização de Conteúdo de Arquivos
@@ -156,10 +156,10 @@ cat bioinfo_exercicies/rna/rna.fasta
 ```
 
 #### 6.3. Criar um Arquivo Vazio
-Use `touch` para criar um novo arquivo chamado `genome.txt` no diretório `results`:
+Use `touch` para criar um novo arquivo chamado `genome.txt` no diretório `genoma`:
 
 ```
-touch results/genome.txt
+touch genoma/genome.txt
 ```
 
 ### 7. Uso de `grep`, `pipe` e `nano`
@@ -179,7 +179,7 @@ grep "ATGC" bioinfo_exercicies/dna/dna.fasta | wc -l
 
 **EASTER EGGS**
 
-        Utilize o comando `grep`com a palavra "LINUX" pesquisando o arquivo `rna.fasta`
+Utilize o comando `grep`com a palavra "LINUX" pesquisando o arquivo `rna.fasta`
 
 #### 7.2. Editar Arquivos Usando `nano`
 Abra o arquivo `first.sh` no editor de texto `nano`:
@@ -225,12 +225,22 @@ sudo ln -s /path/to/FastQC/fastqc /usr/local/bin/fastqc
 
 #### 9.1. Principal Comando
 
+Primeiro criar um diretório para envia os resultados do fastqc:
 
+```
+mkdir fastqc_results
+``
 
+Para usar o programa `fastqc` siga a linha abaixo, precisa alterar a palavra ARQUIVO
+por um arquivo de sua escolha, dentro do diretório `fastq`:
+
+```
+fastqc -f fastq -t 4 -o fastqc_results ARQUIVO
+```
 
 ### 10. Criação de Scripts
 
-#### 10.1. Criar um Script com Loop For
+#### 10.1. Criar um Script com For loop
 Crie um script chamado `count_lines.sh` que conta o número de linhas de todos os arquivos `.fasta` no diretório `bioinfo_exercicies`:
 
 ```
