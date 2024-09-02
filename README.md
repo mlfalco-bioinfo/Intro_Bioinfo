@@ -198,7 +198,7 @@ nano scripts/first.sh
 #### 8.1. Download
 
 ```
-wget -P $HOME/Intro_Bioinfo/fastq/ https://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.12.1.zip
+wget -P $HOME https://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.12.1.zip
 ```
 
 #### 8.2 Verificação JAVA
