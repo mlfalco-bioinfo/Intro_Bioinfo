@@ -228,14 +228,14 @@ sudo ln -s /path/to/FastQC/fastqc /usr/local/bin/fastqc
 Primeiro criar um diretório para envia os resultados do fastqc:
 
 ```
-mkdir fastqc_results
-``
+mkdir results
+```
 
 Para usar o programa `fastqc` siga a linha abaixo, precisa alterar a palavra ARQUIVO
 por um arquivo de sua escolha, dentro do diretório `fastq`:
 
 ```
-fastqc -f fastq -t 4 -o fastqc_results ARQUIVO
+fastqc -f fastq -t 4 -o results ARQUIVO
 ```
 
 ### 10. Criação de Scripts
@@ -257,6 +257,15 @@ Salve o script em `scripts/count_lines.sh`, dê permissão de execução e execu
 
 ```chmod +x scripts/count_lines.sh
 ./scripts/count_lines.sh
+```
+### 11. Criação de Script FASTQC
+
+#### 11.1. Reprodutibilidade - Rodando vários arquivos.
+
+Nesse exercício, crie um script com uma sequência em *for loop* para rodar todos os arquivos .fastq dentro do diretório `fastq`:
+
+```
+?
 ```
 
 ---
