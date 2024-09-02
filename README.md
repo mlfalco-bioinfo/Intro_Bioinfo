@@ -2,6 +2,9 @@
 
 Este tutorial tem como objetivo ensinar comandos básicos do bash aplicados em um contexto de bioinformática, utilizando uma estrutura de diretórios e arquivos relacionados à genômica.
 
+![XXVIIISEBIO](images/sebio.jpeg)
+
+
 ## Estrutura de Diretórios e Arquivos
 
 Os exercícios serão baseados na seguinte estrutura de diretórios:
