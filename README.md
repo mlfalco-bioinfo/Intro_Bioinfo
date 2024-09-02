@@ -2,7 +2,7 @@
 
 <p align="justify">
 Este tutorial tem como objetivo ensinar comandos básicos do bash aplicados em um contexto de bioinformática, utilizando uma estrutura de diretórios e arquivos relacionados à genômica.
-O minicurso pertence à XXVIII edição da SEBIO (Semana da Biologia) na Universidade Estadual do Centro Oeste <a href="https://www3.unicentro.br/">(Unicentro/PR)</a>.
+O minicurso pertence a <a href="https://www.instagram.com/sebiounicentro?igsh=MWI4ODc4djE2Nm9sZA==">XXVIII SEBIO<a/> (Semana da Biologia) na Universidade Estadual do Centro Oeste <a href="https://www3.unicentro.br/">(Unicentro/PR)</a>.
 </p>
 
 <p align="center">
