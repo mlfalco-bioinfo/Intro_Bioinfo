@@ -1,8 +1,11 @@
 # Tutorial de Comandos Básicos do Bash Aplicados à Genômica
 
 Este tutorial tem como objetivo ensinar comandos básicos do bash aplicados em um contexto de bioinformática, utilizando uma estrutura de diretórios e arquivos relacionados à genômica.
+O minicurso pertence à XXVIII edição da SEBIO (Semana da Biologia) na UNiversidade Estadual do Centro Oeste (Unicentro/PR).
 
-![XXVIIISEBIO](images/sebio.jpeg)
+<p align="center">
+  <img src="images/sebio.jpeg" alt="XXVIIISEBIO" width="50%">
+</p>
 
 
 ## Estrutura de Diretórios e Arquivos
