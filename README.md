@@ -279,4 +279,4 @@ Este é o final do tutorial de comandos básicos do bash aplicados à genômica.
 
 ---
 
-Este tutorial é mantido pelo AUTHOR. Se desejar utlizar o material siga as intruções do CODE OF CONDUCT.
+Este tutorial é mantido pelo [AUTHOR](https://github.com/mlfalco-bioinfo/Intro_Bioinfo/blob/main/AUTHOR). Se desejar utlizar o material siga as intruções do CODE OF CONDUCT.
