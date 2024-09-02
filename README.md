@@ -39,6 +39,12 @@ scripts
 
 ## Exercícios
 
+### 0. Anatomia do Comando
+
+```
+command [-flag(s)] [-option(s) [value]] [argument(s)]
+```
+
 ### 1. Navegação no Sistema de Arquivos
 
 #### 1.1. Exibir uma Mensagem no Terminal
