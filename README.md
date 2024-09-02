@@ -193,7 +193,7 @@ Abra o arquivo `first.sh` no editor de texto `nano`:
 nano scripts/first.sh
 ```
 
-### 8. Usando FASTQC
+### 8. Usando [FASTQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
 
 #### 8.1. Download
 
