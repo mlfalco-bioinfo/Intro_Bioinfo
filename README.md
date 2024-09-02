@@ -276,3 +276,7 @@ Nesse exercício, crie um script com uma sequência em *for loop* para rodar tod
 ---
 
 Este é o final do tutorial de comandos básicos do bash aplicados à genômica. Sinta-se à vontade para experimentar modificações e novos comandos!
+
+---
+
+Este tutorial é mantido pelo AUTHOR. Se desejar utlizar o material siga as intruções do CODE OF CONDUCT.
