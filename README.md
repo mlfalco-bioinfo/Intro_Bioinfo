@@ -15,26 +15,32 @@ O minicurso pertence a <a href="https://www.instagram.com/sebiounicentro?igsh=MW
 Os exercícios serão baseados na seguinte estrutura de diretórios:
 
 ```
-bioinfo_exercicies
+Documents/SEBIO2024/Intro_Bioinfo/
+├── bioinfo_exercicies
+│   ├── dna
+│   │   ├── dna.fasta
+│   │   ├── dnaX.fasta
+│   │   └── rna.fasta
+│   ├── dnaY.fasta
+│   ├── protein
+│   │   ├── protein.fasta
+│   │   ├── proteinX.fasta
+│   │   └── proteinY.fasta
+│   └── rna
+├── chrom
 ├── chromossome.txt
-├── dna
-│   ├── dna.fasta
-│   └── dnaX.fasta
-│   └── rna.fasta
-├── dnaY.fasta
-├── protein
-│   ├── protein.fasta
-│   ├── proteinX.fasta
-│   └── proteinY.fasta
-└── rna
-└── chrom
-fastq
-├── 76_S2_L001_R1_001.fastq.gz
-├── AM_S5_L001_R1_001.fastq.gz
-└── P1B-16S_S6_L001_R2_001.fastq.gz
-genes.vcf
-scripts
-└── first.sh
+├── fastq
+│   ├── 76_S2_L001_R1_001.fastq.gz
+│   ├── AM_S5_L001_R1_001.fastq.gz
+│   ├── AM_S5_L001_R2_001.fastq
+│   ├── P1B-16S_S6_L001_R1_001.fastq.gz
+│   └── P1B-16S_S6_L001_R2_001.fastq.gz
+├── genes.vcf
+├── scripts
+│   └── first.sh
+└── Trimmomatic
+    └── TruSeq3-PE.fa
+
 ```
 
 ## Exercícios
@@ -96,7 +102,7 @@ ls -lah bioinfo_exercicies
 Baixe o arquivo com nossos arquivos e diretórios:
 
 ```
-wget -P $HOME https://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.12.1.zip
+wget -P $HOME https://drive.google.com/file/d/1IAzjy_4KWpNBK6y2_S-y6IAgeW684neH/view?usp=sharing
 ```
 Agora, é necessário descomprimir o arquivo `Intro_Bionfo.zip` com os diretórios/arquivos:
 
