@@ -279,6 +279,26 @@ Nesse exercício, crie um script com uma sequência em *for loop* para rodar tod
 ?
 ```
 
+### 12. Trimmomatic
+
+#### 12.1 Instalação Trimmomatic
+
+Primeiro faça o download do seguinte arquivo `Trimmomatic-0.39.zip`:
+
+```
+wget https://github.com/usadellab/Trimmomatic/files/5854859/Trimmomatic-0.39.zip
+```
+
+#### 12.2 Usando Trimmomatic
+
+Usar a seguinte linha de comando para rodar o programa Trimmmomatic:
+
+```
+java -jar trimmomatic-0.39.jar PE input_forward.fq.gz input_reverse.fq.gz output_forward_paired.fq.gz output_forward_unpaired.fq.gz output_reverse_paired.fq.gz output_reverse_unpaired.fq.gz ILLUMINACLIP:TruSeq3-PE.fa:2:30:10:2:True LEADING:3 TRAILING:3 MINLEN:36
+```
+
+
+
 ---
 
 Este é o final do tutorial de comandos básicos do bash aplicados à genômica. Sinta-se à vontade para experimentar modificações e novos comandos!
